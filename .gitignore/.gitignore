@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head >
+	<meta charset="utf-8">
+    <meta name="author" content="Ramona Mironescu">
+	<meta name="description" content="For this project, your task is to take the content for the homepage of a bird watching website and add structural elements to it so it can have a page layout applied to it">
+
+<!--You should also apply the provided CSS to the page by adding another <link> element just below the existing one provided at the start.-->
+
+		<link rel="stylesheet" type="text/css" href="General-setup.css">
+
+		<title>Bird watching website</title>
+</head>
+<body>
+<!--A header spanning the full width of the site containing the main title for the page, the site logo, and the navigation menu. The title and logo appear side by side once styling is applied, and the navigation appears below those two items-->
+<header>
+	<h1>BIRDWATCHING</h1>
+	<img src="dove.png" alt="Logo-Dove" style="width: :90px;height:90px">
+</header>
+
+<nav span>
+	<ul>
+		<li>HOME</li>
+		<li>GET STARTED</li>
+		<li>PHOTOS</li>
+		<li>GEAR</li>
+		<li>FORUM</li>
+	</ul>
+</nav>
+<!--A main content area containing two columns — a main block to contain the welcome text, and a sidebar to contain image thumbnails.-->
+<main>
+<section>
+	<h2> WELCOME</h2>
+	<p>
+		Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas trips, and photos with other like-minded people.</p>
+     <p>So, don't waste time! Get what you need, then turn off the computer and get out into the great outdoors!</p>
+</section>
+
+<section>
+	<aside>
+	<h2>FAVOURITE PHOTOS</h2>
+               <img src="favorite-1_th.jpg" alt="Bird 1" style="width: :128px;height:128px">
+               <img src="favorite-2_th.jpg" alt="Bird 2" style="width: :128px;height:128px">
+               <img src="favorite-3_th.jpg" alt="Bird 3" style="width: :128px;height:128px">
+               <img src="favorite-4_th.jpg" alt="Bird 4" style="width: :128px;height:128px">
+    </aside>
+</section>
+
+</main>
+<!--A footer containing copyright information and credits.-->
+<footer>
+	<p>This fake website example is CCO - any part of this code may be reused in any way you wish. Original example written by Chris Mills,2016.</p>
+	<p><a href="http://www.example.html" title="Dove Icon">Dove icon</a> by Lorc</p>
+</footer>
+</body>
+</html>
